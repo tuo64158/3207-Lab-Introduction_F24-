@@ -1,0 +1,8 @@
+//
+// Created by Eric Bonifacic on 8/28/24.
+//
+
+#ifndef INC_3207_LAB_INTRODUCTION_F24__RANDOM_H
+#define INC_3207_LAB_INTRODUCTION_F24__RANDOM_H
+
+#endif //INC_3207_LAB_INTRODUCTION_F24__RANDOM_H
