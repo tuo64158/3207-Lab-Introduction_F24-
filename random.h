@@ -1,8 +1,6 @@
-//
-// Created by Eric Bonifacic on 8/28/24.
-//
+#ifndef random
+#define random
 
-#ifndef INC_3207_LAB_INTRODUCTION_F24__RANDOM_H
-#define INC_3207_LAB_INTRODUCTION_F24__RANDOM_H
+char randchar ();
 
-#endif //INC_3207_LAB_INTRODUCTION_F24__RANDOM_H
+#endif
