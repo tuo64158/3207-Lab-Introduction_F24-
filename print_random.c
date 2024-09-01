@@ -9,12 +9,16 @@ void rand_string(char*s, size_t size);
 
 int main()
 {
-    srand(time(NULL));
-    char* str = rand_string_alloc(7);
-    rand_string(str, 7);
+	int a;
 
-    printf("%s\n", str);
+	srand( (unsigned)time(NULL) );
 
+	printf("Today's random word: ");
+	for(a=0;a<7;a++)
+		putchar( randchar() );
+	putchar('\n');
+
+	return(0);
 }
 
 void rand_string(char* str, size_t size){
